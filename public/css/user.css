@@ -1,0 +1,41 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(26,25,30);
+    background: rgb(119,40,152);
+    background: linear-gradient(55deg, rgba(119,40,152,0.9136904761904762) 0%, rgba(148,50,101,1) 84%, rgba(3,3,76,0.9557072829131653) 100%) fixed; /* Fixa o gradiente de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição do fundo */
+}
+
+.for {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.578); /* Sombreamento */
+    border-radius: 20px;
+    border: solid #ccc;
+    background-color: aliceblue;
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center; /* Centralizado */
+    color: white; /* Texto branco */
+}
+
+button{
+    width: 100%;
+    background-color:  #1f1f82;
+    color: white;
+    padding: 8px 15px; /* Reduzindo o tamanho do botão */
+    border: none;
+    border-radius: 20px; /* Mais arredondado */
+    cursor: pointer;
+    margin-top: 15px; /* Reduzindo o espaço entre os botões */
+}
+
+button[type="submit"]:hover {
+    background-color: #1f1f82;
+}
